@@ -1,0 +1,68 @@
+/*------------------------------------------------------------------*/
+/* Create two unequal columns that floats next to each other */
+
+.column1BotInfo {
+    float: left;
+    padding: 10px 10px 10px 10px;
+    width: 20%;
+}
+
+.column2BotInfo {
+    float: left;
+    padding: 10px 10px 10px 10px;
+
+    width: 50%;
+}
+
+.column3BotInfo {
+    float: left;
+    padding: 10px 10px 10px 10px;
+    width: 30%;
+}
+
+.row1BotInfo{
+  height:30%;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.row2BotInfo{
+  height:20%;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.row3BotInfo{
+  height:50%;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+
+#content1 {
+	float: left;
+	width: 50%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	
+}
+#content2 {
+	float: left;
+	width: 50%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.buttonBotInfo {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 41px;
+    padding: 9px 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
