@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Create Script</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" type="text/css"
+	href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/bar.css">
+<link rel="stylesheet" type="text/css" href="css/util.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="icon" href="fevicons/Favicon.png" type="image/x-icon" />
+<link rel="shortcut icon" href="fevicons/Favicon.png"
+	type="image/x-icon" />
+
+<!--===============================================================================================-->
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style media="screen">
+
+					.left1{
+						background: #4badf4;
+						display: inline-block;
+						white-space: nowrap;
+						width: 50px;
+						transition: width 0.5s ;
+					}
+
+
+				.main-nav-ul ul{
+					display: none;
+				}
+				.main-nav-ul li:hover ul{
+					display: block;
+				}
+
+				.item1 {
+					height: 50px;
+				color:#fff;
+				overflow:hidden;
+				}
+				.item1:hover {
+				background-color:#ccc;
+
+				}
+				.item2:hover {
+				background-color:#ccc;
+				transition: width 0.5s ;
+
+
+				}
+				.item2 {
+				padding-bottom: 20px;
+				color:#fff;
+				overflow:hidden;
+				}
+				.item3{
+					transition: width 0.5s ;
+					display:block;
+					padding: 10px 0px 10px 10px;
+
+				}
+				.sub-menu{
+					transform-style:preserve-3d;
+				}
+
+
+	</style>
+</head>
+<body>
+	<div id="google_translate_element"></div>
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+			new google.translate.TranslateElement({
+				pageLanguage : 'en',
+				layout : google.translate.TranslateElement.InlineLayout.SIMPLE
+			}, 'google_translate_element');
+		}
+	</script>
+	<script type="text/javascript"
+		src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+	</script>
+
+	<div class="navbar">
+		<a href="landing-page.html"> BOT AI STUDIO</a>
+
+		<div class="dropdown">
+			<button class="dropbtn">
+				<span class="fa fa-user-circle">&emsp;</span>Gourav <i class="fa fa-chevron-circle-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="#">Profile</a> <a href="#">Settings</a> <a href="#">Languages</a>
+				<a href="#">Sign Out</a>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<div class="container-contact100">
+
+		<!-- Left Menu Bar -->
+	<div class="left left1">
+	<ul class="main-nav-ul">
+		<li>	&emsp;&emsp;</li>
+		<li>	&emsp;&emsp;</li>
+		<li class="item2">	&emsp;<span class="fa fa-user-circle">&emsp;</span>
+			<a href="#"> BOTS</a></li>
+		<li class="item2">	&emsp;<span class="fa fa-bars">&emsp;&nbsp;<a>TOOLS</a>&emsp;&nbsp;<i class="fa fa-chevron-circle-down"></i></span>
+
+			<ul class="sub-menu">
+						<li  class="item3">	&emsp;&emsp;<span class="fa fa-book">&emsp;<a href="createDeepLearning.html"> DEEP LEARNING</a></span>
+						</li>
+						<li  class="item3">	&emsp;&emsp;<span class="fa fa-file">&emsp;<a href="Scripts-list.html"> SCRIPTS</a></span>
+						</li>
+			</ul>
+		</li>
+		<li class="item1">	&emsp;<span class="fa fa-line-chart">&emsp;&nbsp;<a href="#">MARKETPLACE</a></span></li>
+		<li class="item1" >	&emsp;<span class="fa fa-pie-chart">&emsp;&nbsp;<a href="#">ANALYTICS</a></span></li>
+	</ul>
+
+	</div>
+	<!-- End of Left Menu Bar -->
+
+
+		<div class="formbox">
+			<form class="form">
+				<span class="form-title"> Create new script </span>
+
+				<div class="inputtext" data-validate="Name is required">
+					<span class="inputarea">Name your script</span> <input
+						class="inputs" type="text" name="name" placeholder="Enter name">
+					<span class="focus-inputs"></span>
+				</div>
+
+
+
+				<div class="inputtext" data-validate="Message is required">
+					<span class="inputarea">Describe your script</span>
+					<textarea class="inputs" name="message"
+						placeholder="Describe the purpose of your Script. You can leave the box empty if you choose"></textarea>
+				</div>
+
+				<div class="inputtext" data-validate="Language is required">
+					<span class="inputarea">Language</span> <input class="inputs"
+						type="text" list="languages" name="language"
+						placeholder="Programming Language or type of script">
+					<datalist id="languages">
+						<option>AIML</option>
+						<option>Self</option>
+						<option>ChatScript</option>
+						<option>ChatLog</option>
+						<option>Response List</option>
+						<option>XML</option>
+						<option>JavaScript</option>
+						<option>JQuery</option>
+						<option>SQL</option>
+						<option>Java</option>
+					</datalist>
+					<span class="focus-inputs"></span>
+				</div>
+
+				<div class="inputtext" data-validate="Categories is required">
+					<span class="inputarea">Categories</span> <input class="inputs"
+						type="text" list="categories" name="language"
+						placeholder="Programming Language or type of script">
+					<datalist id="categories">
+						<option>Math</option>
+						<option>Games</option>
+						<option>Language</option>
+						<option>Website</option>
+						<option>Information</option>
+						<option>AutoResponse</option>
+						<option>JavaScript</option>
+						<option>JQuery</option>
+						<option>SQL</option>
+						<option>Java</option>
+					</datalist>
+					<span class="focus-inputs"></span>
+				</div>
+
+				<div class="container-formbtn">
+					<div class="wrap-frombtn">
+						<div class="from-bgbtn"></div>
+						<button class="formbtn">
+							<span> Create </span>
+						</button>
+
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+
+
+</body>
+</html>
